@@ -10,7 +10,7 @@ const Home = () => {
       height: '100vh',
       position: 'relative',
       overflow: 'hidden',
-      background: 'transparent'
+      background: '#fff'
     }}>
       {/* Spline 3D Scene */}
       <Spline 
@@ -55,12 +55,12 @@ const Home = () => {
               fontSize: '1.5rem',
               borderRadius: '50px',
               background: 'transparent',
-              border: '2px solid #fff',
+              border: '2px solid #000',
               backdropFilter: 'blur(10px)',
               textTransform: 'uppercase',
               letterSpacing: '2px',
               fontWeight: 'bold',
-              color: 'white',
+              color: '#000',
               textDecoration: 'none',
               display: 'inline-block',
               transition: 'all 0.3s ease'
